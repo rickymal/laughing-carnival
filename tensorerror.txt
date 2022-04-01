@@ -1,0 +1,18 @@
+ARNING:tensorflow:AutoGraph could not transform <bound method TFBertMainLayer.call of <transformers.modeling_tf_bert.TFBertMainLayer object at 0x00000207722F4100>> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING: AutoGraph could not transform <bound method TFBertMainLayer.call of <transformers.modeling_tf_bert.TFBertMainLayer object at 0x00000207722F4100>> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method TFBertEmbeddings._embedding of <transformers.modeling_tf_bert.TFBertEmbeddings object at 0x0000020772307F70>> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING: AutoGraph could not transform <bound method TFBertEmbeddings._embedding of <transformers.modeling_tf_bert.TFBertEmbeddings object at 0x0000020772307F70>> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method TFBertEncoder.call of <transformers.modeling_tf_bert.TFBertEncoder object at 0x0000020771CB46A0>> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBO
